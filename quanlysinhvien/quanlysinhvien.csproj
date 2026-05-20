@@ -52,6 +52,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_maincs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_maincs.Designer.cs">
+      <DependentUpon>Form_maincs.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QLSinhVien.cs">
@@ -60,8 +66,23 @@
     <Compile Include="QLSinhVien.Designer.cs">
       <DependentUpon>QLSinhVien.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCL_QLLH.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCL_QLLH.Designer.cs">
+      <DependentUpon>UCL_QLLH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCL_QLSV.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCL_QLSV.Designer.cs">
+      <DependentUpon>UCL_QLSV.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_maincs.resx">
+      <DependentUpon>Form_maincs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -74,6 +95,12 @@
     </Compile>
     <EmbeddedResource Include="QLSinhVien.resx">
       <DependentUpon>QLSinhVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCL_QLLH.resx">
+      <DependentUpon>UCL_QLLH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCL_QLSV.resx">
+      <DependentUpon>UCL_QLSV.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
