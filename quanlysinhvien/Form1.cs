@@ -19,10 +19,17 @@ namespace quanlysinhvien
 
         private void btnDangnhap_Click(object sender, EventArgs e)
         {
-            
-            if (txtEmail.Text == "vietvh0029268@huce.edu.vn" && txtPassword.Text == "0029268")
+            // Giả sử bạn kiểm tra tài khoản, mật khẩu ở đây
+            if (txtEmail.Text == "admin" && txtPassword.Text == "123") // Thay điều kiện đăng nhập của bạn vào đây
             {
-                MessageBox.Show("đăng nhập thành công");
+                MessageBox.Show("Đăng nhập thành công");
+
+                // SỬA CHÍNH XÁC DÒNG NÀY: Khởi tạo Form chính bằng từ khóa new
+                Form_maincs f = new Form_maincs();
+
+                this.Hide(); // Ẩn form đăng nhập đi
+                f.ShowDialog(); // Hiển thị form chính lên
+                this.Show(); // Khi form chính đóng, hiện lại form đăng nhập (hoặc dùng this.Close() nếu muốn tắt hẳn)
             }
             else
             {

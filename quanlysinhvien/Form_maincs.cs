@@ -21,23 +21,28 @@ namespace quanlysinhvien
         {
 
             UCL_QLSV uCL_QLSV = new UCL_QLSV();
-            pnl_QLSV.Controls.Clear();
-            pnl_QLSV.Controls.Add(uCL_QLSV);
+            pnlmain.Controls.Clear();
+            pnlmain.Controls.Add(uCL_QLSV);
         }
 
         private void quảnLýLớpHọcToolStripMenuItem1_Click(object sender, EventArgs e)
         {
 
             UCL_QLLH uCL_QLLH = new UCL_QLLH();
-            pnl_QLSV.Controls.Clear();
-            pnl_QLSV.Controls.Add(uCL_QLLH);
+            pnlmain.Controls.Clear();
+            pnlmain.Controls.Add(uCL_QLLH);
         }
 
         private void quanToolStripMenuItem_Click(object sender, EventArgs e)
         {
             UCL_QLSV uCL_QLSV = new UCL_QLSV();
-            pnl_QLSV.Controls.Clear();
-            pnl_QLSV.Controls.Add(uCL_QLSV);
+            pnlmain.Controls.Clear();
+            pnlmain.Controls.Add(uCL_QLSV);
+        }
+
+        private void pnl_QLSV_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

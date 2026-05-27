@@ -3,12 +3,12 @@ C:\Users\admin\Documents\GitHub\CSharp_68PM2_VuHoangViet_0029268\quanlysinhvien\
 C:\Users\admin\Documents\GitHub\CSharp_68PM2_VuHoangViet_0029268\quanlysinhvien\bin\Debug\quanlysinhvien.pdb
 C:\Users\admin\Documents\GitHub\CSharp_68PM2_VuHoangViet_0029268\quanlysinhvien\obj\Debug\quanlysinhvien.csproj.AssemblyReference.cache
 C:\Users\admin\Documents\GitHub\CSharp_68PM2_VuHoangViet_0029268\quanlysinhvien\obj\Debug\quanlysinhvien.Form1.resources
+C:\Users\admin\Documents\GitHub\CSharp_68PM2_VuHoangViet_0029268\quanlysinhvien\obj\Debug\quanlysinhvien.Form_maincs.resources
 C:\Users\admin\Documents\GitHub\CSharp_68PM2_VuHoangViet_0029268\quanlysinhvien\obj\Debug\quanlysinhvien.Properties.Resources.resources
+C:\Users\admin\Documents\GitHub\CSharp_68PM2_VuHoangViet_0029268\quanlysinhvien\obj\Debug\quanlysinhvien.QLSinhVien.resources
+C:\Users\admin\Documents\GitHub\CSharp_68PM2_VuHoangViet_0029268\quanlysinhvien\obj\Debug\quanlysinhvien.UCL_QLLH.resources
+C:\Users\admin\Documents\GitHub\CSharp_68PM2_VuHoangViet_0029268\quanlysinhvien\obj\Debug\quanlysinhvien.UCL_QLSV.resources
 C:\Users\admin\Documents\GitHub\CSharp_68PM2_VuHoangViet_0029268\quanlysinhvien\obj\Debug\quanlysinhvien.csproj.GenerateResource.cache
 C:\Users\admin\Documents\GitHub\CSharp_68PM2_VuHoangViet_0029268\quanlysinhvien\obj\Debug\quanlysinhvien.csproj.CoreCompileInputs.cache
 C:\Users\admin\Documents\GitHub\CSharp_68PM2_VuHoangViet_0029268\quanlysinhvien\obj\Debug\quanlysinhvien.exe
 C:\Users\admin\Documents\GitHub\CSharp_68PM2_VuHoangViet_0029268\quanlysinhvien\obj\Debug\quanlysinhvien.pdb
-C:\Users\admin\Documents\GitHub\CSharp_68PM2_VuHoangViet_0029268\quanlysinhvien\obj\Debug\quanlysinhvien.Form_maincs.resources
-C:\Users\admin\Documents\GitHub\CSharp_68PM2_VuHoangViet_0029268\quanlysinhvien\obj\Debug\quanlysinhvien.QLSinhVien.resources
-C:\Users\admin\Documents\GitHub\CSharp_68PM2_VuHoangViet_0029268\quanlysinhvien\obj\Debug\quanlysinhvien.UCL_QLLH.resources
-C:\Users\admin\Documents\GitHub\CSharp_68PM2_VuHoangViet_0029268\quanlysinhvien\obj\Debug\quanlysinhvien.UCL_QLSV.resources
