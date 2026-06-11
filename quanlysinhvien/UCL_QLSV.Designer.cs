@@ -47,11 +47,11 @@
             this.cmb_Lop = new System.Windows.Forms.ComboBox();
             this.cboGioiTinh = new System.Windows.Forms.ComboBox();
             this.dtpNgaySinh = new System.Windows.Forms.DateTimePicker();
-            this.txtHoTen = new System.Windows.Forms.TextBox();
             this.txtMSSV = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtHoTen = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_QLSV)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -65,6 +65,7 @@
             this.button9.TabIndex = 25;
             this.button9.Text = ">>";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button8
             // 
@@ -74,6 +75,7 @@
             this.button8.TabIndex = 26;
             this.button8.Text = ">";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button6
             // 
@@ -84,6 +86,7 @@
             this.button6.TabIndex = 27;
             this.button6.Text = "<";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
@@ -93,6 +96,7 @@
             this.button7.TabIndex = 28;
             this.button7.Text = "<<";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // label7
             // 
@@ -112,6 +116,7 @@
             this.dgv_QLSV.RowTemplate.Height = 24;
             this.dgv_QLSV.Size = new System.Drawing.Size(677, 448);
             this.dgv_QLSV.TabIndex = 37;
+            this.dgv_QLSV.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_QLSV_CellClick);
             // 
             // button5
             // 
@@ -122,6 +127,7 @@
             this.button5.TabIndex = 36;
             this.button5.Text = "Tìm";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // textBox3
             // 
@@ -159,6 +165,7 @@
             this.sửa.TabIndex = 32;
             this.sửa.Text = "Sửa";
             this.sửa.UseVisualStyleBackColor = false;
+            this.sửa.Click += new System.EventHandler(this.sửa_Click);
             // 
             // xóa
             // 
@@ -169,6 +176,7 @@
             this.xóa.TabIndex = 31;
             this.xóa.Text = "Xóa";
             this.xóa.UseVisualStyleBackColor = false;
+            this.xóa.Click += new System.EventHandler(this.xóa_Click);
             // 
             // lammoi
             // 
@@ -179,6 +187,7 @@
             this.lammoi.TabIndex = 30;
             this.lammoi.Text = "Làm mới";
             this.lammoi.UseVisualStyleBackColor = false;
+            this.lammoi.Click += new System.EventHandler(this.lammoi_Click);
             // 
             // groupBox1
             // 
@@ -243,13 +252,6 @@
             this.dtpNgaySinh.Size = new System.Drawing.Size(200, 22);
             this.dtpNgaySinh.TabIndex = 5;
             // 
-            // txtHoTen
-            // 
-            this.txtHoTen.Location = new System.Drawing.Point(36, 135);
-            this.txtHoTen.Name = "txtHoTen";
-            this.txtHoTen.Size = new System.Drawing.Size(308, 22);
-            this.txtHoTen.TabIndex = 4;
-            // 
             // txtMSSV
             // 
             this.txtMSSV.Location = new System.Drawing.Point(36, 63);
@@ -266,6 +268,15 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "Ngày sinh:";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(33, 29);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(84, 16);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Mã sinh viên:";
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -275,14 +286,12 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Họ và tên:";
             // 
-            // label1
+            // txtHoTen
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(33, 29);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 16);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Mã sinh viên:";
+            this.txtHoTen.Location = new System.Drawing.Point(36, 135);
+            this.txtHoTen.Name = "txtHoTen";
+            this.txtHoTen.Size = new System.Drawing.Size(308, 22);
+            this.txtHoTen.TabIndex = 4;
             // 
             // UCL_QLSV
             // 
@@ -334,10 +343,10 @@
         private System.Windows.Forms.ComboBox cmb_Lop;
         private System.Windows.Forms.ComboBox cboGioiTinh;
         private System.Windows.Forms.DateTimePicker dtpNgaySinh;
-        private System.Windows.Forms.TextBox txtHoTen;
         private System.Windows.Forms.TextBox txtMSSV;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtHoTen;
+        private System.Windows.Forms.Label label2;
     }
 }
