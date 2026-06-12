@@ -68,16 +68,30 @@ namespace quanlysinhvien
         }
         private void dgv_QLSV_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            
-            if (e.RowIndex >= 0)
+            // 1. Kiểm tra chỉ nhấp vào dòng dữ liệu (không nhấp vào tiêu đề)
+            if (e.RowIndex >= 0 && e.RowIndex < dgv_QLSV.Rows.Count)
             {
-                DataGridViewRow row = dgv_QLSV.CurrentRow;
-                txtMSSV.Text = row.Cells["id"].Value.ToString();
+                DataGridViewRow row = dgv_QLSV.Rows[e.RowIndex];
+
+                // 2. Kiểm tra ô có null hay không trước khi gán
+                if (row.Cells["id"].Value != null) txtMSSV.Text = row.Cells["id"].Value.ToString();
                 txtMSSV.ReadOnly = true;
-                txtHoTen.Text = row.Cells["hoten"].Value.ToString();
-                cboGioiTinh.Text = row.Cells["gioitinh"].Value.ToString();
-                dtpNgaySinh.Value = Convert.ToDateTime(row.Cells["ngaysinh"].Value);
-                cmb_Lop.SelectedValue = row.Cells["malop"].Value.ToString();
+
+                if (row.Cells["hoten"].Value != null) txtHoTen.Text = row.Cells["hoten"].Value.ToString();
+                if (row.Cells["gioitinh"].Value != null) cboGioiTinh.Text = row.Cells["gioitinh"].Value.ToString();
+
+                if (row.Cells["ngaysinh"].Value != null)
+                    dtpNgaySinh.Value = Convert.ToDateTime(row.Cells["ngaysinh"].Value);
+
+                // 3. Xử lý an toàn cho ComboBox
+                if (row.Cells["malop"].Value != null)
+                {
+                    cmb_Lop.SelectedValue = row.Cells["malop"].Value.ToString();
+                }
+                else
+                {
+                    cmb_Lop.SelectedIndex = -1; // Nếu không có mã lớp thì bỏ chọn
+                }
             }
         }
 
