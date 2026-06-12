@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{228A30F7-B6D4-4A3A-A137-402758C45487}|quanlysinhvien.csproj|C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\ucl_qllh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{228A30F7-B6D4-4A3A-A137-402758C45487}|quanlysinhvien.csproj|c:\\users\\admin\\documents\\github\\csharp_68pm2_vuhoangviet_0029268\\quanlysinhvien\\ucl_qllh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{228A30F7-B6D4-4A3A-A137-402758C45487}|quanlysinhvien.csproj|solutionrelative:ucl_qllh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{228A30F7-B6D4-4A3A-A137-402758C45487}|quanlysinhvien.csproj|solutionrelative:ucl_qllh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{228A30F7-B6D4-4A3A-A137-402758C45487}|quanlysinhvien.csproj|c:\\users\\admin\\documents\\github\\csharp_68pm2_vuhoangviet_0029268\\quanlysinhvien\\ucl_qlsv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{228A30F7-B6D4-4A3A-A137-402758C45487}|quanlysinhvien.csproj|C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\ucl_qlsv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{228A30F7-B6D4-4A3A-A137-402758C45487}|quanlysinhvien.csproj|solutionrelative:ucl_qlsv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -90,8 +90,7 @@
               "RelativeToolTip": "UCL_QLSV.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAowEkAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T05:59:38.871Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T05:59:38.871Z"
             },
             {
               "$type": "Document",
@@ -99,9 +98,9 @@
               "Title": "UCL_QLLH.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\UCL_QLLH.cs",
               "RelativeDocumentMoniker": "UCL_QLLH.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\UCL_QLLH.cs",
-              "RelativeToolTip": "UCL_QLLH.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAADwv1gAAAAMAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\UCL_QLLH.cs*",
+              "RelativeToolTip": "UCL_QLLH.cs*",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAIwLgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-20T03:31:01.368Z",
               "EditorCaption": ""
@@ -112,8 +111,8 @@
               "Title": "UCL_QLLH.cs [Design]",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\UCL_QLLH.cs",
               "RelativeDocumentMoniker": "UCL_QLLH.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\UCL_QLLH.cs [Design]",
-              "RelativeToolTip": "UCL_QLLH.cs [Design]",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\UCL_QLLH.cs [Design]*",
+              "RelativeToolTip": "UCL_QLLH.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-27T05:55:03.273Z",
               "EditorCaption": " [Design]"
@@ -162,8 +161,7 @@
               "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\DataClasses1.dbml",
               "RelativeToolTip": "DataClasses1.dbml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001722|",
-              "WhenOpened": "2026-05-27T03:03:21.168Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T03:03:21.168Z"
             },
             {
               "$type": "Document",
@@ -174,8 +172,7 @@
               "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\UCL_QLSV.cs [Design]",
               "RelativeToolTip": "UCL_QLSV.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T05:57:18.951Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-05-27T05:57:18.951Z"
             },
             {
               "$type": "Document",
@@ -199,8 +196,7 @@
               "RelativeToolTip": "UCL_QLLH.Designer.cs",
               "ViewState": "AgIAAG4AAAAAAAAAAAAUwIQAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T05:54:28.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T05:54:28.882Z"
             },
             {
               "$type": "Document",
@@ -212,8 +208,7 @@
               "RelativeToolTip": "UCL_QLSV.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoBAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T12:37:15.454Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-11T12:37:15.454Z"
             },
             {
               "$type": "Document",

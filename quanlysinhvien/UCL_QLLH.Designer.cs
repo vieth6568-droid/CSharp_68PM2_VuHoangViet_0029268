@@ -152,9 +152,9 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(556, 79);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(164, 16);
+            this.label6.Size = new System.Drawing.Size(149, 16);
             this.label6.TabIndex = 49;
-            this.label6.Text = "Tìm kiếm(Tên/Mã sv/Lớp):";
+            this.label6.Text = "Tìm kiếm(Tên,Mã/ Lớp):";
             // 
             // button4
             // 
@@ -278,9 +278,10 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(33, 48);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 16);
+            this.label1.Size = new System.Drawing.Size(42, 16);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Mã sinh viên:";
+            this.label1.Text = "Mã ID";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // UCL_QLLH
             // 
