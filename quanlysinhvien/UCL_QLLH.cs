@@ -155,13 +155,9 @@ namespace quanlysinhvien
                 return;
             }
 
-            string maLopDuocChon = txtMaLop.Text;
-
-            var dSSVTheoLop = db.tbl_sinhviens.Where(x => x.malop == maLopDuocChon).ToList();
-
-            dgv_QLLH.DataSource = dSSVTheoLop;
-
-            phantrang.Text = $"{maLopDuocChon} | {dSSVTheoLop.Count} sinh viên";
+            FormxemdanhsachSV f = new FormxemdanhsachSV();
+            f.LoadDSSV(txtMaLop.Text); // Truyền mã lớp vào để Form mới biết lọc theo lớp nào
+            f.ShowDialog();
         }
 
 

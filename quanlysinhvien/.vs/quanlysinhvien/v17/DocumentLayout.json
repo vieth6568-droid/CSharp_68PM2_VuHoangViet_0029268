@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{228A30F7-B6D4-4A3A-A137-402758C45487}|quanlysinhvien.csproj|c:\\users\\admin\\documents\\github\\csharp_68pm2_vuhoangviet_0029268\\quanlysinhvien\\ucl_qllh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{228A30F7-B6D4-4A3A-A137-402758C45487}|quanlysinhvien.csproj|solutionrelative:ucl_qllh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{228A30F7-B6D4-4A3A-A137-402758C45487}|quanlysinhvien.csproj|c:\\users\\admin\\documents\\github\\csharp_68pm2_vuhoangviet_0029268\\quanlysinhvien\\formxemdanhsachsv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{228A30F7-B6D4-4A3A-A137-402758C45487}|quanlysinhvien.csproj|solutionrelative:formxemdanhsachsv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{228A30F7-B6D4-4A3A-A137-402758C45487}|quanlysinhvien.csproj|c:\\users\\admin\\documents\\github\\csharp_68pm2_vuhoangviet_0029268\\quanlysinhvien\\formxemdanhsachsv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{228A30F7-B6D4-4A3A-A137-402758C45487}|quanlysinhvien.csproj|solutionrelative:formxemdanhsachsv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{228A30F7-B6D4-4A3A-A137-402758C45487}|quanlysinhvien.csproj|C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\ucl_qllh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{228A30F7-B6D4-4A3A-A137-402758C45487}|quanlysinhvien.csproj|C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\ucl_qlsv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{228A30F7-B6D4-4A3A-A137-402758C45487}|quanlysinhvien.csproj|solutionrelative:ucl_qlsv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{228A30F7-B6D4-4A3A-A137-402758C45487}|quanlysinhvien.csproj|c:\\users\\admin\\documents\\github\\csharp_68pm2_vuhoangviet_0029268\\quanlysinhvien\\ucl_qllh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{228A30F7-B6D4-4A3A-A137-402758C45487}|quanlysinhvien.csproj|solutionrelative:ucl_qllh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{228A30F7-B6D4-4A3A-A137-402758C45487}|quanlysinhvien.csproj|C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\dataclasses1.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|",
@@ -82,25 +90,26 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UCL_QLSV.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\UCL_QLSV.cs",
-              "RelativeDocumentMoniker": "UCL_QLSV.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\UCL_QLSV.cs",
-              "RelativeToolTip": "UCL_QLSV.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAowEkAAABAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "FormxemdanhsachSV.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\FormxemdanhsachSV.cs",
+              "RelativeDocumentMoniker": "FormxemdanhsachSV.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\FormxemdanhsachSV.cs",
+              "RelativeToolTip": "FormxemdanhsachSV.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T05:59:38.871Z"
+              "WhenOpened": "2026-06-12T03:13:50.957Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UCL_QLLH.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\UCL_QLLH.cs",
               "RelativeDocumentMoniker": "UCL_QLLH.cs",
               "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\UCL_QLLH.cs",
               "RelativeToolTip": "UCL_QLLH.cs",
-              "ViewState": "AgIAAKAAAAAAAAAAAAAIwLgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIwAAAAAAAAAAADwv6EAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-20T03:31:01.368Z",
               "EditorCaption": ""
@@ -108,6 +117,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FormxemdanhsachSV.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\FormxemdanhsachSV.cs",
+              "RelativeDocumentMoniker": "FormxemdanhsachSV.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\FormxemdanhsachSV.cs [Design]",
+              "RelativeToolTip": "FormxemdanhsachSV.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T03:12:27.925Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UCL_QLSV.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\UCL_QLSV.cs",
+              "RelativeDocumentMoniker": "UCL_QLSV.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\UCL_QLSV.cs",
+              "RelativeToolTip": "UCL_QLSV.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwD4AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T05:59:38.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "UCL_QLLH.cs [Design]",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\UCL_QLLH.cs",
               "RelativeDocumentMoniker": "UCL_QLLH.cs",
@@ -119,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -131,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -142,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "QLSinhVien.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\QLSinhVien.cs",
               "RelativeDocumentMoniker": "QLSinhVien.cs",
@@ -154,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "DataClasses1.dbml",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\DataClasses1.dbml",
               "RelativeDocumentMoniker": "DataClasses1.dbml",
@@ -165,18 +199,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "UCL_QLSV.cs [Design]",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\UCL_QLSV.cs",
               "RelativeDocumentMoniker": "UCL_QLSV.cs",
               "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\UCL_QLSV.cs [Design]",
               "RelativeToolTip": "UCL_QLSV.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T05:57:18.951Z"
+              "WhenOpened": "2026-05-27T05:57:18.951Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Form_maincs.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\Form_maincs.cs",
               "RelativeDocumentMoniker": "Form_maincs.cs",
@@ -188,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "UCL_QLLH.Designer.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\UCL_QLLH.Designer.cs",
               "RelativeDocumentMoniker": "UCL_QLLH.Designer.cs",
@@ -200,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "UCL_QLSV.Designer.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\UCL_QLSV.Designer.cs",
               "RelativeDocumentMoniker": "UCL_QLSV.Designer.cs",
@@ -208,11 +243,12 @@
               "RelativeToolTip": "UCL_QLSV.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoBAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T12:37:15.454Z"
+              "WhenOpened": "2026-06-11T12:37:15.454Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Form_maincs.cs [Design]",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\Form_maincs.cs",
               "RelativeDocumentMoniker": "Form_maincs.cs",
@@ -223,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Form_maincs.Designer.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\Form_maincs.Designer.cs",
               "RelativeDocumentMoniker": "Form_maincs.Designer.cs",
@@ -235,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "QLSinhVien.cs [Design]",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\QLSinhVien.cs",
               "RelativeDocumentMoniker": "QLSinhVien.cs",
@@ -246,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Form1.Designer.cs",
@@ -258,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Form_maincs.resx",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\Form_maincs.resx",
               "RelativeDocumentMoniker": "Form_maincs.resx",
@@ -269,7 +305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\CSharp_68PM2_VuHoangViet_0029268\\quanlysinhvien\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
