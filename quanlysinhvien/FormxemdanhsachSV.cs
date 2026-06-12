@@ -29,6 +29,12 @@ namespace quanlysinhvien
      
             // Giả sử db là DataContext của bạn
             dgv_DSSV.DataSource = db.tbl_sinhviens.ToList();
+            label_TenLop.Text = $"Danh sách sinh viên lớp {maLop.Trim()}";
+            var dSSVTheoLop = db.tbl_sinhviens.Where(x => x.malop.Trim() == maLop.Trim()).ToList();
+
+            dgv_DSSV.DataSource = dSSVTheoLop;
+            label_TongSinhVien.Text = $"Tổng số sinh viên: {dSSVTheoLop.Count}";
         }
+
     }
 }
