@@ -34,7 +34,7 @@
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.phantrang = new System.Windows.Forms.Label();
-            this.dgv_QLSV = new System.Windows.Forms.DataGridView();
+            this.dgv_QLLH = new System.Windows.Forms.DataGridView();
             this.button5 = new System.Windows.Forms.Button();
             this.txttimkiem = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -43,15 +43,15 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txtMSSV = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtTenLop = new System.Windows.Forms.TextBox();
-            this.malop = new System.Windows.Forms.Label();
-            this.txtMaLop = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
             this.txtGhiChu = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv_QLSV)).BeginInit();
+            this.label8 = new System.Windows.Forms.Label();
+            this.txtMaLop = new System.Windows.Forms.TextBox();
+            this.malop = new System.Windows.Forms.Label();
+            this.txtTenLop = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtID = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_QLLH)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -118,16 +118,16 @@
             this.phantrang.Text = "Trang1/1 | 3 bản ghi";
             this.phantrang.Click += new System.EventHandler(this.label7_Click);
             // 
-            // dgv_QLSV
+            // dgv_QLLH
             // 
-            this.dgv_QLSV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_QLSV.Location = new System.Drawing.Point(550, 170);
-            this.dgv_QLSV.Name = "dgv_QLSV";
-            this.dgv_QLSV.RowHeadersWidth = 51;
-            this.dgv_QLSV.RowTemplate.Height = 24;
-            this.dgv_QLSV.Size = new System.Drawing.Size(677, 448);
-            this.dgv_QLSV.TabIndex = 52;
-            this.dgv_QLSV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_QLSV_CellClick);
+            this.dgv_QLLH.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_QLLH.Location = new System.Drawing.Point(550, 170);
+            this.dgv_QLLH.Name = "dgv_QLLH";
+            this.dgv_QLLH.RowHeadersWidth = 51;
+            this.dgv_QLLH.RowTemplate.Height = 24;
+            this.dgv_QLLH.Size = new System.Drawing.Size(677, 448);
+            this.dgv_QLLH.TabIndex = 52;
+            this.dgv_QLLH.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_QLLH_CellClick);
             // 
             // button5
             // 
@@ -198,7 +198,7 @@
             this.button1.TabIndex = 45;
             this.button1.Text = "Làm mới";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.xóa_Click);
+            this.button1.Click += new System.EventHandler(this.lammoi_Click);
             // 
             // groupBox1
             // 
@@ -208,7 +208,7 @@
             this.groupBox1.Controls.Add(this.malop);
             this.groupBox1.Controls.Add(this.txtTenLop);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.txtMSSV);
+            this.groupBox1.Controls.Add(this.txtID);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(54, 127);
             this.groupBox1.Name = "groupBox1";
@@ -217,37 +217,28 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin sinh viên";
             // 
-            // label5
+            // txtGhiChu
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(36, 127);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(33, 16);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "Lớp:";
+            this.txtGhiChu.Location = new System.Drawing.Point(33, 314);
+            this.txtGhiChu.Name = "txtGhiChu";
+            this.txtGhiChu.Size = new System.Drawing.Size(305, 22);
+            this.txtGhiChu.TabIndex = 14;
             // 
-            // txtMSSV
+            // label8
             // 
-            this.txtMSSV.Location = new System.Drawing.Point(36, 79);
-            this.txtMSSV.Name = "txtMSSV";
-            this.txtMSSV.Size = new System.Drawing.Size(308, 22);
-            this.txtMSSV.TabIndex = 3;
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(33, 283);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(53, 16);
+            this.label8.TabIndex = 13;
+            this.label8.Text = "Ghi Chú";
             // 
-            // label1
+            // txtMaLop
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(33, 48);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 16);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Mã sinh viên:";
-            // 
-            // txtTenLop
-            // 
-            this.txtTenLop.Location = new System.Drawing.Point(36, 159);
-            this.txtTenLop.Name = "txtTenLop";
-            this.txtTenLop.Size = new System.Drawing.Size(308, 22);
-            this.txtTenLop.TabIndex = 10;
+            this.txtMaLop.Location = new System.Drawing.Point(33, 240);
+            this.txtMaLop.Name = "txtMaLop";
+            this.txtMaLop.Size = new System.Drawing.Size(308, 22);
+            this.txtMaLop.TabIndex = 12;
             // 
             // malop
             // 
@@ -259,28 +250,37 @@
             this.malop.Text = "Mã lớp";
             this.malop.Click += new System.EventHandler(this.label8_Click);
             // 
-            // txtMaLop
+            // txtTenLop
             // 
-            this.txtMaLop.Location = new System.Drawing.Point(33, 240);
-            this.txtMaLop.Name = "txtMaLop";
-            this.txtMaLop.Size = new System.Drawing.Size(308, 22);
-            this.txtMaLop.TabIndex = 12;
+            this.txtTenLop.Location = new System.Drawing.Point(36, 159);
+            this.txtTenLop.Name = "txtTenLop";
+            this.txtTenLop.Size = new System.Drawing.Size(308, 22);
+            this.txtTenLop.TabIndex = 10;
             // 
-            // label8
+            // label5
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(33, 283);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(53, 16);
-            this.label8.TabIndex = 13;
-            this.label8.Text = "Ghi Chú";
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(36, 127);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(33, 16);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Lớp:";
             // 
-            // txtGhiChu
+            // txtID
             // 
-            this.txtGhiChu.Location = new System.Drawing.Point(33, 314);
-            this.txtGhiChu.Name = "txtGhiChu";
-            this.txtGhiChu.Size = new System.Drawing.Size(305, 22);
-            this.txtGhiChu.TabIndex = 14;
+            this.txtID.Location = new System.Drawing.Point(36, 79);
+            this.txtID.Name = "txtID";
+            this.txtID.Size = new System.Drawing.Size(308, 22);
+            this.txtID.TabIndex = 3;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(33, 48);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(84, 16);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Mã sinh viên:";
             // 
             // UCL_QLLH
             // 
@@ -292,7 +292,7 @@
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.phantrang);
-            this.Controls.Add(this.dgv_QLSV);
+            this.Controls.Add(this.dgv_QLLH);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.txttimkiem);
             this.Controls.Add(this.label6);
@@ -304,7 +304,7 @@
             this.Name = "UCL_QLLH";
             this.Size = new System.Drawing.Size(1369, 778);
             this.Load += new System.EventHandler(this.UCL_QLLH_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dgv_QLSV)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_QLLH)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -320,7 +320,7 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Label phantrang;
-        private System.Windows.Forms.DataGridView dgv_QLSV;
+        private System.Windows.Forms.DataGridView dgv_QLLH;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.TextBox txttimkiem;
         private System.Windows.Forms.Label label6;
@@ -330,7 +330,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtMSSV;
+        private System.Windows.Forms.TextBox txtID;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label malop;
         private System.Windows.Forms.TextBox txtTenLop;

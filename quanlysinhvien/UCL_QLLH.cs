@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -24,12 +25,12 @@ namespace quanlysinhvien
         {
             LoadDataPhanTrang();
         }
-        
+
         private void button4_Click(object sender, EventArgs e)
         {
 
             tbl_lophoc lophoc = new tbl_lophoc();
-            lophoc.id = txtMSSV.Text;
+            lophoc.id = txtID.Text;
             lophoc.malop = txtMaLop.Text;
             lophoc.tenlop = txtTenLop.Text;
             lophoc.ghichu = txtGhiChu.Text;
@@ -46,46 +47,46 @@ namespace quanlysinhvien
             }
         }
 
-        private void dgv_QLSV_CellClick(object sender, DataGridViewCellEventArgs e)
+        private void dgv_QLLH_CellClick(object sender, DataGridViewCellEventArgs e)
         {
 
-            DataGridViewRow row = dgv_QLSV.CurrentRow;
+            DataGridViewRow row = dgv_QLLH.CurrentRow;
 
-            txtMSSV.Text = row.Cells["id"].Value.ToString();
-            txtMSSV.ReadOnly = true;
+            txtID.Text = row.Cells["id"].Value.ToString();
+            txtID.ReadOnly = true;
             txtMaLop.Text = row.Cells["malop"].Value.ToString();
             txtTenLop.Text = row.Cells["tenlop"].Value.ToString();
             txtGhiChu.Text = row.Cells["ghichu"].Value.ToString();
         }
 
-        
+
 
         private void sửa_Click(object sender, EventArgs e)
         {
-            tbl_lophoc lophoc = db.tbl_lophocs.SingleOrDefault(x => x.id == txtMSSV.Text);
+            tbl_lophoc lophoc = db.tbl_lophocs.SingleOrDefault(x => x.id == txtID.Text);
 
             if (lophoc != null)
-            try
-                { 
-                lophoc.malop = txtMaLop.Text;
-            lophoc.tenlop = txtTenLop.Text;
-            lophoc.ghichu = txtGhiChu.Text;
-            
-                db.SubmitChanges();
+                try
+                {
+                    lophoc.malop = txtMaLop.Text;
+                    lophoc.tenlop = txtTenLop.Text;
+                    lophoc.ghichu = txtGhiChu.Text;
 
-                MessageBox.Show("Sửa thành công");
-                LoadDataPhanTrang();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
+                    db.SubmitChanges();
+
+                    MessageBox.Show("Sửa thành công");
+                    LoadDataPhanTrang();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
         }
-        
+
 
         private void xóa_Click(object sender, EventArgs e)
         {
-            tbl_lophoc lophoc = db.tbl_lophocs.SingleOrDefault(x => x.id == txtMSSV.Text);
+            tbl_lophoc lophoc = db.tbl_lophocs.SingleOrDefault(x => x.id == txtID.Text);
             try
             {
                 db.tbl_lophocs.DeleteOnSubmit(lophoc);
@@ -105,10 +106,11 @@ namespace quanlysinhvien
         private void lammoi_Click(object sender, EventArgs e)
         {
             txtMaLop.Clear();
-            txtMSSV.Clear();
-            txtMSSV.ReadOnly = false;
+            txtID.Clear();
+            txtID.ReadOnly = false;
             txtTenLop.Clear();
             txtGhiChu.Clear();
+            trangHienTai = 1;
             LoadDataPhanTrang();
         }
 
@@ -120,7 +122,7 @@ namespace quanlysinhvien
                                                                 || x.malop == tuKhoa
                                                                 || x.tenlop == tuKhoa).ToList();
 
-            dgv_QLSV.DataSource = ketQua;
+            dgv_QLLH.DataSource = ketQua;
         }
 
         // Các nút phân trang
@@ -131,15 +133,19 @@ namespace quanlysinhvien
 
         public void LoadDataPhanTrang()
         {
+            // 1. Luôn luôn đếm từ bảng gốc, không đếm từ kết quả lọc
             int tongSoBanGhi = db.tbl_lophocs.Count();
             int tongSoTrang = (int)Math.Ceiling((double)tongSoBanGhi / soDongTrenTrang);
             if (tongSoTrang == 0) tongSoTrang = 1;
 
-            var dSSV = db.tbl_lophocs.Skip((trangHienTai - 1) * soDongTrenTrang).Take(soDongTrenTrang).ToList();
-            dgv_QLSV.DataSource = dSSV;
-            phantrang.Text = $"Trang {trangHienTai}/{tongSoTrang} | {tongSoBanGhi} bản ghi";
+            // 2. Lấy dữ liệu phân trang từ bảng gốc tbl_lophocs (bảng của lớp học)
+            var dsLop = db.tbl_lophocs.Skip((trangHienTai - 1) * soDongTrenTrang)
+                                     .Take(soDongTrenTrang).ToList();
 
+            // 3. Gán lại nguồn dữ liệu gốc
+            dgv_QLLH.DataSource = dsLop;
 
+            dgv_QLLH.Text = $"Trang {trangHienTai}/{tongSoTrang} | {tongSoBanGhi} bản ghi";
         }
         private void btnXemDS_Click(object sender, EventArgs e)
         {
@@ -153,20 +159,20 @@ namespace quanlysinhvien
 
             var dSSVTheoLop = db.tbl_sinhviens.Where(x => x.malop == maLopDuocChon).ToList();
 
-            dgv_QLSV.DataSource = dSSVTheoLop;
+            dgv_QLLH.DataSource = dSSVTheoLop;
 
             phantrang.Text = $"{maLopDuocChon} | {dSSVTheoLop.Count} sinh viên";
         }
-    
 
-private void label7_Click(object sender, EventArgs e)
+
+        private void label7_Click(object sender, EventArgs e)
         {
 
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+
         }
 
         private void label8_Click(object sender, EventArgs e)
